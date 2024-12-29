@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/src/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-start bg-gray-500 shadow-lg shadow-gray-700 w-screen h-72">
+        <div class="container mx-auto flex justify-between items-center h-full">
+            <div class="flex items-center">
+                <img src="Arrghya.jpg" alt="Profile Picture" class="rounded-full w-20 h-20 mr-4">
+                <div class="arghya navbar-brand">
+                    <a href="#" class="text-white text-4xl font-playfair">Arghya Ghosh</a>
+                    <style>
+                        .arghya {
+                            font-family: 'Playfair Display', serif;
+                        }
+                    </style>
+                </div>
+            </div>
+            <div class="navbar-menu">
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-white text-lg">Home</a></li>
+                    <li><a href="#" class="text-white text-lg">About</a></li>
+                    <li><a href="#" class="text-white text-lg">Portfolio</a></li>
+                    <li><a href="#" class="text-white text-lg">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="about-me absolute top-96 mx-auto my-16 px-16 transition-transform duration-500 hover:scale-105">
+        <h2 class="text-3xl mb-4 font-bold hover:animate-none font-montserrat">About Me</h2>
+        <p class="text-gray-700 leading-relaxed font-mono">
+            "Hi, I'm Arghya Ghosh, a passionate and detail-oriented Computer Science graduate (B.Tech, 2020–2024) from Guru Nanak Institute of Technology, with an overall CGPA of 8.36. I have a strong foundation in programming, proficient in Java, Python, and C#. My expertise extends to web development using HTML5, CSS, Tailwind/Bootstrap, JavaScript, Node.js, and database management with MySQL. I have also worked with frameworks like Flask and Unity. I am currently exploring the field of machine learning and artificial intelligence. I am a quick learner and a team player, with excellent communication skills. I am looking forward to contributing to a dynamic team and enhancing my skills in a challenging environment."
+        </p>
+    </div>
+
+
+
+
+    <div class="container absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-1/2 ">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="card shadow-lg shadow-gray-600">
+                <img src="https://media.istockphoto.com/id/182062885/photo/space-station-in-earth-orbit.jpg?s=612x612&w=0&k=20&c=F_P2YJ3QDbSW2n6dWkh6JNYeQGI1-2q-wOBk9-sw_Xo=" alt="Placeholder" class="w-full h-48 object-cover">
+                <div class="card-body">
+                    <h2 class="card-title">Geospatial satellite image object detection</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nulla ac justo tincidunt aliquet.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+            <div class="card shadow-lg shadow-gray-600">
+                <img src="https://media.istockphoto.com/id/1194709125/photo/grocery-shopping.jpg?s=612x612&w=0&k=20&c=wiusAs8MGMElfjz-aTea35tAkgu2a2bLCoRVtba_qLY=" alt="Placeholder" class="w-full h-48 object-cover">
+                <div class="card-body">
+                    <h2 class="card-title">Grocery Store data management system</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nulla ac justo tincidunt aliquet.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+            <div class="card shadow-lg shadow-gray-600">
+                <img src="https://user-images.githubusercontent.com/32998741/33873439-27f635b2-df45-11e7-8fc1-f7812f17447a.png" alt="Placeholder" class="w-full h-48 object-cover">
+                <div class="card-body">
+                    <h2 class="card-title">Snake Game using C shrap</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nulla ac justo tincidunt aliquet.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+            <div class="card shadow-lg shadow-gray-600">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1RfhpXzXBpSc3-SvSPICmt1tKLbewVcR8Jg&s" alt="Placeholder" class="w-full h-48 object-cover">
+                <div class="card-body">
+                    <h2 class="card-title">Amazon clone using html, css, javascipt</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nulla ac justo tincidunt aliquet.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <style>
+        .card:hover {
+            @apply transform scale-105 transition-transform ease-in-out duration-300;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+
+    <style>
+        .navbar {
+            background-size: cover;
+            background-position: center;
+            background-image: url('https://snu.edu.in/site/assets/files/14210/hand-holding-virtual-icon-graduation-hat.1600x0.webp');
+        }
+        .navbar::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: inherit;
+            opacity: 0.8;
+            z-index: -1;
+            transform: scaleX(-1);
+        }
+    </style>
+
+</body>
+</html>
